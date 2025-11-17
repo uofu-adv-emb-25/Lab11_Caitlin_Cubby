@@ -1,0 +1,25 @@
+server/CMakeFiles/lab11_server.dir/home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/3rd-party/yxml/yxml.c.obj: \
+ /home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/3rd-party/yxml/yxml.c \
+ /home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/3rd-party/yxml/yxml.h \
+ /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+ /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/stdint.h \
+ /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/_default_types.h \
+ /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/features.h \
+ /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/_newlib_version.h \
+ /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_intsup.h \
+ /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_stdint.h \
+ /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+ /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/string.h \
+ /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/_ansi.h \
+ /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/newlib.h \
+ /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/config.h \
+ /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/ieeefp.h \
+ /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/reent.h \
+ /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/_ansi.h \
+ /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/cdefs.h \
+ /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_types.h \
+ /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/_types.h \
+ /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/lock.h \
+ /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_locale.h \
+ /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/strings.h \
+ /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/string.h
