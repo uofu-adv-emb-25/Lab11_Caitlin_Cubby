@@ -92,7 +92,8 @@ server/CMakeFiles/lab11_server.dir/gatt_counter.c.obj: /home/kkmastroi/Lab11_Cai
   /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   server/generated/lab11_server_gatt_header/gatt_counter.h \
-  /home/kkmastroi/Lab11_Caitlin_Cubby/include/btstack_config.h
+  /home/kkmastroi/Lab11_Caitlin_Cubby/include/btstack_config.h \
+  /home/kkmastroi/Lab11_Caitlin_Cubby/include/temp_sense.h
 
 server/CMakeFiles/lab11_server.dir/home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/3rd-party/md5/md5.c.obj: /home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/3rd-party/md5/md5.c \
   /home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/3rd-party/md5/md5.h \
@@ -15845,6 +15846,63 @@ server/CMakeFiles/lab11_server.dir/picow_bt_example_freertos.c.obj: /home/kkmast
   /home/kkmastroi/Lab11_Caitlin_Cubby/include/lwipopts_examples_common.h \
   /home/kkmastroi/Lab11_Caitlin_Cubby/include/picow_bt_example_common.h
 
+server/CMakeFiles/lab11_server.dir/temp_sense.c.obj: /home/kkmastroi/Lab11_Caitlin_Cubby/server/temp_sense.c \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/assert.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/config.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/error.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/types.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/adc.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_adc/include/hardware/adc.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/_ansi.h \
+  /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/_newlib_version.h \
+  /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/assert.h \
+  /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/_default_types.h \
+  /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/ieeefp.h \
+  /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/newlib.h \
+  /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/stdint.h \
+  /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_intsup.h \
+  /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_stdint.h \
+  /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/cdefs.h \
+  /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/config.h \
+  /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/features.h \
+  /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  /home/kkmastroi/FreeRTOSv202406.03-LTS/FreeRTOS-LTS/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /home/kkmastroi/FreeRTOSv202406.03-LTS/FreeRTOS-LTS/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /home/kkmastroi/Lab11_Caitlin_Cubby/include/FreeRTOSConfig.h \
+  /home/kkmastroi/Lab11_Caitlin_Cubby/include/temp_sense.h
+
+
+/home/kkmastroi/Lab11_Caitlin_Cubby/server/temp_sense.c:
 
 /home/kkmastroi/Lab11_Caitlin_Cubby/server/picow_bt_example_freertos.c:
 
@@ -16036,11 +16094,7 @@ server/CMakeFiles/lab11_server.dir/picow_bt_example_freertos.c.obj: /home/kkmast
 
 /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c:
 
-/home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/types.h:
-
-/home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.h:
-
-/home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/netif/lowpan6_ble.h:
+/home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c:
 
 /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/syslimits.h:
 
@@ -16336,6 +16390,16 @@ generated/pico_base/pico/version.h:
 
 /home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/src/btstack_chipset.h:
 
+/home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/src/ble/gatt-service/heart_rate_service_server.c:
+
+/home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/src/btstack_memory.h:
+
+/home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/src/ble/gatt-service/scan_parameters_service_client.h:
+
+/home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/alloca.h:
+
+/home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/lwip/src/netif/ppp/pppoe.c:
+
 /home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/src/btstack_audio.h:
 
 /home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/src/btstack_crypto.c:
@@ -16351,6 +16415,12 @@ generated/pico_base/pico/version.h:
 /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/common/boot_picobin_headers/include/boot/picobin.h:
 
 /home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/src/ble/gatt-service/device_information_service_server.h:
+
+/home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.h:
+
+/home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/types.h:
+
+/home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/netif/lowpan6_ble.h:
 
 /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_ticks/include/hardware/ticks.h:
 
@@ -16574,21 +16644,9 @@ server/generated/lab11_server_gatt_header/gatt_counter.h:
 
 /home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/src/bluetooth_company_id.h:
 
-/home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/alloca.h:
-
-/home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/src/ble/gatt-service/scan_parameters_service_client.h:
-
-/home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/lwip/src/netif/ppp/pppoe.c:
-
 /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/ieeefp.h:
 
 /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h:
-
-/home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/_default_types.h:
-
-/home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/lwip/src/core/init.c:
-
-/home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c:
 
 /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/_types.h:
 
@@ -16624,6 +16682,22 @@ server/generated/lab11_server_gatt_header/gatt_counter.h:
 
 /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h:
 
+/home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/_default_types.h:
+
+/home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/lwip/src/core/init.c:
+
+/home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c:
+
+/home/kkmastroi/Lab11_Caitlin_Cubby/include/temp_sense.h:
+
+/home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/src/ble/att_dispatch.c:
+
+/home/kkmastroi/FreeRTOSv202406.03-LTS/FreeRTOS-LTS/FreeRTOS/FreeRTOS-Kernel/include/event_groups.h:
+
+/home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/3rd-party/rijndael/rijndael.c:
+
+/home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_timeval.h:
+
 /home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h:
 
 /home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/lwip/src/netif/ppp/upap.c:
@@ -16639,14 +16713,6 @@ server/generated/lab11_server_gatt_header/gatt_counter.h:
 /home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/lwip/netif.h:
 
 /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/dma.h:
-
-/home/kkmastroi/FreeRTOSv202406.03-LTS/FreeRTOS-LTS/FreeRTOS/FreeRTOS-Kernel/include/event_groups.h:
-
-/home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/3rd-party/rijndael/rijndael.c:
-
-/home/kkmastroi/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_timeval.h:
-
-/home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/src/ble/att_dispatch.c:
 
 /home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/src/ble/gatt-service/battery_service_server.h:
 
@@ -16719,10 +16785,6 @@ server/generated/lab11_server_gatt_header/gatt_counter.h:
 /home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/lwip/acd.h:
 
 /home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/src/ble/gatt-service/device_information_service_client.c:
-
-/home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/src/btstack_memory.h:
-
-/home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/src/ble/gatt-service/heart_rate_service_server.c:
 
 /home/kkmastroi/.pico-sdk/sdk/2.0.0/lib/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.h:
 
@@ -17205,5 +17267,3 @@ generated/pico_base/pico/config_autogen.h:
 /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/pio.h:
 
 /home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_pll/pll.c:
-
-/home/kkmastroi/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_sync/sync.c:
